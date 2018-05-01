@@ -3,6 +3,7 @@
   "description": "React components for common text effects",
   "main": "dist/index.js",
   "jsnext:main": "components/index.js",
+  "licenses": ["MIT"],
   "module": "components/index.js",
   "files": [
     "src",
@@ -77,12 +78,10 @@
     "webpack": "^4.6.0"
   },
   "dependencies": {
-    "@kadira/storybook-deployer": "^1.0.0",
-    "classnames": "^2.2.3",
-    "invariant": "^2.2.4",
-    "polished": "^1.9.2",
-    "react": "^16.3.2",
-    "react-dom": "^16.3.2",
+    "prop-types": "15.6.1",
+    "react": "16.3.2",
+    "react-dom": "16.3.2",
+    "react-icons": "2.2.7",
     "styled-components": "^3.2.6"
   },
   "config": {
