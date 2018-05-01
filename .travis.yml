@@ -11,6 +11,8 @@ node_js:
   - '7'
 before_script:
     - npm prune
+script:
+    - echo "tests pending. coming soon.."
 after_success:
   - npm run travis-deploy-once "npm run semantic-release"
 branches:

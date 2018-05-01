@@ -11,3 +11,4 @@ npm-debug.log
 
 demo/node_modules
 demo/build
+storybook-static

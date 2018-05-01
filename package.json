@@ -23,7 +23,8 @@
     "docs": "build-storybook -o docs",
     "commit": "git cz",
     "build-storybook": "build-storybook",
-    "travis-deploy-once": "travis-deploy-once"
+    "travis-deploy-once": "travis-deploy-once",
+    "deploy-storybook": "storybook-to-ghpages"
   },
   "repository": {
     "type": "git",
