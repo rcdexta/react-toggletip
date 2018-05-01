@@ -1,7 +1,7 @@
 # react-toggletip
 
-[![npm version](https://badge.fury.io/js/react-text-effects.svg)](https://badge.fury.io/js/react-text-effects)
-[![Build Status](https://travis-ci.org/rcdexta/react-text-effects.svg?branch=master)](https://travis-ci.org/rcdexta/react-text-effects)
+[![npm version](https://badge.fury.io/js/react-toggletip.svg)](https://badge.fury.io/js/react-toggletip)
+[![Build Status](https://travis-ci.org/rcdexta/react-toggletip.svg?branch=master)](https://travis-ci.org/rcdexta/react-toggletip)
 
 Simple toggletip and tooltip for your react apps
 
