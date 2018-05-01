@@ -4,7 +4,7 @@ import InfoIcon from 'react-icons/lib/fa/info-circle'
 import './styles'
 
 class ToggleTip extends React.Component {
-  get label() {
+  get label () {
     const {content} = this.props
     if (content instanceof Array) {
       return content.join('\n')
@@ -13,7 +13,7 @@ class ToggleTip extends React.Component {
     }
   }
 
-  get ttlpClasses() {
+  get ttlpClasses () {
     const {animated, placement} = this.props
     const classes = ['tltp--rounded']
     if (!animated) classes.push('tltp--no-animate')
@@ -21,7 +21,7 @@ class ToggleTip extends React.Component {
     return classes.join(' ')
   }
 
-  render() {
+  render () {
     return (
       <span className={this.ttlpClasses} style={{display: 'flex'}} aria-label={this.label}>
         <InfoIcon style={{cursor: 'pointer', verticalAlign: 'none'}} />
