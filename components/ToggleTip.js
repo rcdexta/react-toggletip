@@ -23,7 +23,7 @@ class ToggleTip extends React.Component {
 
   render () {
     return (
-      <span className={this.ttlpClasses} style={{display: 'flex'}} aria-label={this.label}>
+      <span className={this.ttlpClasses} style={{display: 'flex', marginLeft: 3}} aria-label={this.label}>
         <InfoIcon style={{cursor: 'pointer', verticalAlign: 'none'}} />
       </span>
     )
