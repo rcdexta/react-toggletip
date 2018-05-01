@@ -5,6 +5,8 @@
 
 Simple toggletip and tooltip for your react apps
 
+![toggletip](https://github.com/rcdexta/react-toggletip/raw/master/assets/screenshot.png)
+
 ### Installation
 
 ```bash
