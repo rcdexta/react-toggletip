@@ -1,9 +1,8 @@
 {
-  "name": "react-text-effects",
-  "description": "React components for common text effects",
+  "name": "react-toggletip",
+  "description": "Simple toggletip and tooltip for your react apps",
   "main": "dist/index.js",
   "jsnext:main": "components/index.js",
-  "licenses": ["MIT"],
   "module": "components/index.js",
   "files": [
     "src",
@@ -14,7 +13,7 @@
     "lint": "eslint components/** tests/**",
     "lintfix": "eslint --fix components/** tests/**",
     "prepublish": "npm run lint && npm run build",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
+    "semantic-release": "semantic-release",
     "storybook": "start-storybook -p 6006",
     "test": "mocha --require tests/config/setup 'tests/**/*.test.js'",
     "test:watch": "mocha --require tests/config/setup 'tests/**/*.test.js' --watch",
@@ -23,18 +22,21 @@
     "build": "babel components --out-dir dist",
     "docs": "build-storybook -o docs",
     "commit": "git cz",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "travis-deploy-once": "travis-deploy-once"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rcdexta/react-text-effects.git"
+    "url": "https://github.com/rcdexta/react-toggletip.git"
   },
   "keywords": [
-    "react-component-keywords"
+    "react",
+    "toggletip",
+    "tooltip"
   ],
   "author": "RC",
   "license": "MIT",
-  "homepage": "https://github.com/rcdexta/react-text-effects",
+  "homepage": "https://github.com/rcdexta/react-toggletip",
   "devDependencies": {
     "@storybook/addon-actions": "^3.4.3",
     "@storybook/addon-knobs": "^3.4.3",
@@ -75,7 +77,8 @@
     "sass-loader": "^7.0.1",
     "semantic-release": "^15.1.8",
     "sinon": "^5.0.1",
-    "webpack": "^4.6.0"
+    "webpack": "^4.6.0",
+    "travis-deploy-once": "^5.0.0"
   },
   "dependencies": {
     "prop-types": "15.6.1",
