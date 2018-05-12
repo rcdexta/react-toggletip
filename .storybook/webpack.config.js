@@ -12,7 +12,11 @@ module.exports = {
   ],
   module: {
     rules: [
-      // add your custom rules.
+      {
+        test: /\.stories\.js?$/,
+        loaders: [require.resolve('@storybook/addon-storysource/loader')],
+        enforce: 'pre',
+      },
     ],
   },
 };
