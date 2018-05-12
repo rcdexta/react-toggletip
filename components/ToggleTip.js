@@ -21,13 +21,13 @@ class ToggleTip extends React.Component {
     return classes.join(' ')
   }
 
-  get content() {
+  get content () {
     return this.props.children || this.props.icon || <InfoIcon style={{cursor: 'pointer', verticalAlign: 'none'}} />
   }
 
   render () {
     return (
-        <span className={this.ttlpClasses} style={{display: 'flex', marginLeft: 3}} aria-label={this.label}>
+      <span className={this.ttlpClasses} style={{display: 'flex', marginLeft: 3}} aria-label={this.label}>
         {this.content}
       </span>
     )
@@ -47,7 +47,8 @@ ToggleTip.propTypes = {
     'top-left'
   ]),
   animated: PropTypes.bool,
-  icon: PropTypes.node
+  icon: PropTypes.node,
+  children: PropTypes.node
 }
 
 ToggleTip.defaultProps = {
