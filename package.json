@@ -12,7 +12,7 @@
   "scripts": {
     "lint": "eslint components/** tests/**",
     "lintfix": "eslint --fix components/** tests/**",
-    "prepublish": "npm run lint",
+    "prepublish": "npm run lint && npm run build",
     "semantic-release": "semantic-release",
     "storybook": "start-storybook -p 6006",
     "test": "mocha --require tests/config/setup 'tests/**/*.test.js'",
