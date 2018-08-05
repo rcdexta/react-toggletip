@@ -26,8 +26,9 @@ class ToggleTip extends React.Component {
   }
 
   render () {
+    const otherStyles = this.props.children ? {} : {display: 'flex'}
     return (
-      <span className={this.ttlpClasses} style={{display: 'flex', marginLeft: 3}} aria-label={this.label}>
+      <span className={this.ttlpClasses} style={{marginLeft: 3, ...otherStyles}} aria-label={this.label}>
         {this.content}
       </span>
     )
