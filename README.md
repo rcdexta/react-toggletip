@@ -24,13 +24,13 @@ For context as to why it's called a  "toggletip", read this [blog](https://inclu
 ### Installation
 
 ```bash
-$ npm install --save react-toggletip
+npm install --save react-toggletip
 ```
 
 or if you are using `yarn`
 
 ```bash
-$ yarn add react-toggletip
+yarn add react-toggletip
 ```
 
 ### Demo
